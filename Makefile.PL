@@ -14,7 +14,7 @@ test_requires  'Test::More'              => '0.47';
 no_index       'directory'               => qw{ t xt eg share inc};
 homepage       'http://padre.perlide.org/';
 bugtracker     'http://padre.perlide.org/';
-repository     'http://svn.perlide.org/padre/trunk/Padre-Plugin-DataWalker';
+repository     'https://github.com/PadreIDE/Padre-Plugin-DataWalker';
 
 is_padre_plugin; # authors: Install Module::Install::PadrePlugin
 
